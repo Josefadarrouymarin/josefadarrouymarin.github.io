@@ -10,7 +10,6 @@ body {
     color: #333; /* Texto oscuro */
 }
 
-/* 🌿 HEADER - Diseño simple */
 header {
     color: #222;
     padding: 20px;
@@ -19,7 +18,6 @@ header {
     font-weight: bold;
 }
 
-/* ✅ Títulos */
 h1 {
     font-size: 36px;
     color: #2e7d32; /* Verde medio */
@@ -31,14 +29,12 @@ h2 {
     font-family: 'Nunito', sans-serif;
 }
 
-/* ✅ Párrafos */
 p {
     font-size: 18px;
     line-height: 1.6;
     color: #444;
 }
 
-/* 🎨 Cuadro para "My Skills" */
 .skills-container {
     width: 60%;
     margin: 30px auto;
@@ -49,7 +45,6 @@ p {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-/* ✅ Tabla dentro del cuadro */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -72,7 +67,6 @@ th {
     background: none;
 }
 
-/* ✅ Botón verde */
 button {
     padding: 12px 24px;
     background: #43a047;
@@ -90,7 +84,6 @@ button:hover {
     background: #2e7d32;
 }
 
-/* ✅ Input */
 input {
     padding: 10px;
     font-size: 16px;
@@ -101,7 +94,6 @@ input {
     margin-bottom: 10px;
 }
 
-/* ✅ Footer */
 footer {
     color: #666;
     padding: 15px;
@@ -110,7 +102,6 @@ footer {
     margin-top: 20px;
 }
 
-/* 🎵 Imagen del próximo concierto */
 .concert-image {
     text-align: center;
     margin-top: 20px;
