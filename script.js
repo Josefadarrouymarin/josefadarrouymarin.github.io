@@ -4,10 +4,8 @@ function changeMessage() {
     const alertContainer = document.getElementById("alert-container");
 
     if (userInput === "") {
-        return; // No hace nada si el input está vacío
+        return; 
     }
-
-    // Crear la alerta de Bootstrap
     alertContainer.innerHTML = `
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             Message updated successfully!
@@ -15,7 +13,6 @@ function changeMessage() {
         </div>
     `;
 
-    // Mostrar mensaje con imagen pequeña
     messageContainer.innerHTML = `
         <div class="text-center mt-2">
             <p>${userInput}</p>
@@ -23,7 +20,6 @@ function changeMessage() {
         </div>
     `;
 
-    // Borrar después de 3 segundos
     setTimeout(() => {
         messageContainer.innerHTML = "";
         alertContainer.innerHTML = "";
@@ -32,7 +28,6 @@ function changeMessage() {
     document.getElementById("userInput").value = "";
 }
 
-// 🔹 AJAX para noticias
 document.addEventListener("DOMContentLoaded", function () {
     const apiKey = "b0bed6c47c2f4c19bc6fe69c820a87f4";
     const newsContainer = document.getElementById("news-container");
